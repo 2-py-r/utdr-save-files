@@ -9,8 +9,6 @@ Both by Haley Wakamatsu or UkiyoMoji Fonts
     /* Sans has less gaps */
     font-family: 'Determination-Sans';
     src: url('./fonts/DTM-Sans.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
 }
 @font-face {
     /* Bigger gaps between each letter */
