@@ -1,17 +1,28 @@
 /*
 Css for the whole website.
+Fonts found at behance.net
+Link for title font: https://www.behance.net/gallery/100106185/Monster-Friend-2
+Link for regular text font: https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
+Both by Haley Wakamatsu or UkiyoMoji Fonts
 */
 @font-face {
     /* Sans has less gaps */
     font-family: 'Determination-Sans';
     src: url('./fonts/DTM-Sans.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     /* Bigger gaps between each letter */
     font-family: 'Determination-Mono';
     src: url('./fonts/DTM-Mono.otf') format('opentype');
 }
+@font-face {
+    font-family: 'MonsterFriend-Back';
+    src: url('./fonts/MonsterFriend2B.otf') format('opentype');
+}
 * {
     font: 'Determination-Sans';
+    font-size: 16px;
     color:black;
 }
