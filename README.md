@@ -1,5 +1,5 @@
-# utdr-save-files
-Save files for Undertale and Deltarune including secret bosses and stuff.
+# 2-py-r GitHub site
+Site for Undertale and Deltarune mostly.
 ## What is this?
-Just something that has save files for the two games. Really only so that I can do any boss I want.\
-Link coming soon (if i remember).
+Just something that has save files for the two games. Made so that any secret boss is accessible with just a file.\
+Link coming soon (if I remember).
