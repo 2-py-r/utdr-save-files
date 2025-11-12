@@ -37,7 +37,6 @@ html {
 }
 .text-container {
     position: relative;
-    width: max-content;
     display: inline-block;
 }
 .text-container h1 {
