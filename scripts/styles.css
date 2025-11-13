@@ -37,23 +37,30 @@ html {
 }
 .text-container {
     position: relative;
-    display: inline-block;
+    width: fit-content;
 }
-.text-container h1 {
+.h1 {
     font-size: 24px;
 }
-.text-container .title-text-b {
+.layer-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+.title-text-b {
     font-family: 'MonsterFriend-Back';
     color: rgb(100, 100, 100);
     opacity: 50%;
     z-index: 1;
 }
-.text-container .title-text-c {
+.title-text-c {
     font-family: 'MonsterFriend-Center';
     color: rgb(255, 0, 0);
     z-index: 2;
 }
-.text-container .title-text-f {
+.title-text-f {
     font-family: 'MonsterFriend-Fore';
     color: white;
     z-index: 3;
