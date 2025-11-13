@@ -1,5 +1,5 @@
 /*
-Css for the whole website.
+CSS for the whole website.
 Fonts found at behance.net
 Link for title font: https://www.behance.net/gallery/100106185/Monster-Friend-2
 Link for regular text font: https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
@@ -48,10 +48,11 @@ html {
     left: 0;
     margin: 0;
     white-space: nowrap;
+    text-transform: uppercase;
 }
 .title-text-b {
     font-family: 'MonsterFriend-Back';
-    color: rgb(100, 100, 100);
+    color: #000000;
     opacity: 50%;
     z-index: 1;
 }
