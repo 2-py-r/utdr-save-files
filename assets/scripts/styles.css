@@ -1,9 +1,10 @@
 /*
 CSS for the whole website.
 Fonts found at behance.net
-Link for title font: https://www.behance.net/gallery/100106185/Monster-Friend-2
+Link for undertale title font: https://www.behance.net/gallery/100106185/Monster-Friend-2
 Link for regular text font: https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
 Both by Haley Wakamatsu or UkiyoMoji Fonts
+Deltarune title font made by me. It's not very good, but only 30 minutes of work does that.
 */
 @font-face {
     /* Sans has less gaps */
@@ -26,6 +27,10 @@ Both by Haley Wakamatsu or UkiyoMoji Fonts
 @font-face {
     font-family: 'MonsterFriend-Fore';
     src: url(../fonts/MonsterFriend2F.otf) format('opentype');
+}
+@font-face {
+    font-family: 'DR-Title';
+    src: url(../fonts.deltarunetitle.ttf) format('truetype');
 }
 * {
     font-family: 'Determination-Sans';
@@ -64,6 +69,15 @@ html {
 }
 .title-text-f {
     font-family: 'MonsterFriend-Fore';
+    color: white;
+    z-index: 3;
+}
+.norm {
+    font-family: 'Determination-Sans';
+    color: white;
+}
+.dr-text {
+    font-family: 'DR-Title';
     color: white;
     z-index: 3;
 }
