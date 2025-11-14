@@ -30,7 +30,7 @@ Deltarune title font made by me. It's not very good, but only 30 minutes of work
 }
 @font-face {
     font-family: 'DR-Title';
-    src: url(../fonts/deltarunetitle.ttf) format('truetype');
+    src: url(../fonts/deltarunetitle.woff) format('woff');
 }
 * {
     font-family: 'Determination-Sans';
