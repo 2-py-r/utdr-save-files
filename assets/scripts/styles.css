@@ -44,7 +44,6 @@ html {
 .text-container {
     position: relative;
     margin: auto;
-    width: 50%;
 }
 .h1 {
     font-size: 24px;
@@ -60,7 +59,7 @@ html {
 }
 .title-text-b {
     font-family: 'MonsterFriend-Back';
-    color: orange;
+    color: yellow;
     opacity: 0.5;
     z-index: 1;
 }
