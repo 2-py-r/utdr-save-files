@@ -58,7 +58,7 @@ html {
 }
 .title-text-b {
     font-family: 'MonsterFriend-Back';
-    color: #000000;
+    color: orange;
     opacity: 50%;
     z-index: 1;
 }
@@ -85,6 +85,8 @@ html {
     font-size: 48px;
     letter-spacing: 2.25px;
 }
+/* 
+nope
 .dr-text-b {
     font-family: 'DR-Title';
     text-transform: none;
@@ -92,4 +94,4 @@ html {
     z-index: 2;
     font-size: 48px;
     letter-spacing: 225px;
-}
+} */
