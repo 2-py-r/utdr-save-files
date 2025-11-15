@@ -77,11 +77,19 @@ html {
     color: white;
     text-transform: none;
 }
-.dr-text {
+.dr-text-f {
     font-family: 'DR-Title';
-    text-transform: 'uppercase';
+    text-transform: none;
     color: white;
     z-index: 3;
+    font-size: 48px;
+    letter-spacing: 2.25px;
+}
+.dr-text-b {
+    font-family: 'DR-Title';
+    text-transform: none;
+    color: red;
+    z-index: 2;
     font-size: 48px;
     letter-spacing: 2.25px;
 }
