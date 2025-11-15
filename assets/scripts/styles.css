@@ -18,15 +18,15 @@ Deltarune title font made by me. It's not very good, but only 30 minutes of work
     src: url(../fonts/DTM-Mono.otf) format('opentype');
 }
 @font-face {
-    font-family: 'MonsterFriend-Back';
+    font-family: 'MonsterFriendB';
     src: url(../fonts/MonsterFriend2Back.otf) format('opentype');
 }
 @font-face {
-    font-family: 'MonsterFriend-Center';
+    font-family: 'MonsterFriendC';
     src: url(../fonts/MonsterFriend2Center.otf) format('opentype');
 }
 @font-face {
-    font-family: 'MonsterFriend-Fore';
+    font-family: 'MonsterFriendF';
     src: url(../fonts/MonsterFriend2Fore.otf) format('opentype');
 }
 @font-face {
@@ -43,7 +43,7 @@ html {
 }
 .text-container {
     position: relative;
-    margin: auto;
+    margin: 0 auto;
 }
 .h1 {
     font-size: 24px;
@@ -58,18 +58,18 @@ html {
     text-align: center;
 }
 .title-text-b {
-    font-family: 'MonsterFriend-Back';
+    font-family: 'MonsterFriendB';
     color: yellow;
     opacity: 0.5;
     z-index: 1;
 }
 .title-text-c {
-    font-family: 'MonsterFriend-Center';
+    font-family: 'MonsterFriendC';
     color: rgb(255, 0, 0);
     z-index: 2;
 }
 .title-text-f {
-    font-family: 'MonsterFriend-Fore';
+    font-family: 'MonsterFriendF';
     color: white;
     z-index: 3;
 }
